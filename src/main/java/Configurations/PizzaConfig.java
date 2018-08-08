@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 
-public class SecurityConfig {
+public class PizzaConfig {
 
     @Bean
     public MapReactiveUserDetailsService userDetailsService () {

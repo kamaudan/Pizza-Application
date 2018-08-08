@@ -1,4 +1,4 @@
-package io.github.kamaudan.ReactiveSecurity;
+package io.github.kamaudan.PizzaSecurity;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

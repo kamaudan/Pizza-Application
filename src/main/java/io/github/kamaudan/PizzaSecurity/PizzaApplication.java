@@ -1,4 +1,4 @@
-package io.github.kamaudan.ReactiveSecurity;
+package io.github.kamaudan.PizzaSecurity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
