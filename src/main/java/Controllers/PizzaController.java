@@ -5,7 +5,7 @@ import Repository.PizzaRepository;
 
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
-
+import reactor.core.publisher.Mono;
 
 
 @RestController
@@ -26,6 +26,11 @@ public class PizzaController {
 
 
     }
+    @GetMapping("/{id}")
+    public Mono<Pizza> onePizza(@PathVariable final long id ) {
+        return  pizzaRepository.findById(id);
+    }
+    
 
     @PostMapping
     public Pizza addPizza(@RequestBody Pizza pizza){
