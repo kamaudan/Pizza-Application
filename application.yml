@@ -1,0 +1,19 @@
+spring:
+   security:
+      oauth2:
+        client:
+          registration:
+           google:
+             client-id: 715675750420-9k6frkkquvot3clnkcp5ald53jbr1gov.apps.googleusercontent.com
+             client-secret: 2xRptkxeyq_63OOEkGWc_sgQ
+
+          provider:
+             google:
+                authorization-uri:
+                token-uri:
+                user-info-uri:
+                user-name-attribute:
+                jwk-set-uri:
+
+
+
